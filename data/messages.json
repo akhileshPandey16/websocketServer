@@ -1,0 +1,4 @@
+[
+  { "username": "Alice", "message": "Hello!", "timestamp": "2024-10-20T12:30:00Z" },
+  { "username": "Bob", "message": "Hi Alice!", "timestamp": "2024-10-20T12:31:00Z" }
+]
