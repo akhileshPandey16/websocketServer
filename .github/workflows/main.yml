@@ -25,9 +25,9 @@ jobs:
       - name: Pull image from docker hub
         run: docker pull 1akhilp/websocket:latest
       - name: Delete old container
-        run: docker rm -f nodejs-notes-app-container
+        run: docker rm -f websocket-container
       - name: Run docker container
         run: |
           docker run -d -p 8085:8085 \
-          --name websocket \
+          --name websocket-container \
           1akhilp/websocket
